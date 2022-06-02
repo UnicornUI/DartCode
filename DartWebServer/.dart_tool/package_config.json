@@ -1,0 +1,20 @@
+{
+  "configVersion": 2,
+  "packages": [
+    {
+      "name": "serral",
+      "rootUri": "file:///home/unicorn/.pub-cache/hosted/pub.dartlang.org/serral-0.1.14",
+      "packageUri": "lib/",
+      "languageVersion": "2.3"
+    },
+    {
+      "name": "DartWebServer",
+      "rootUri": "../",
+      "packageUri": "lib/",
+      "languageVersion": "2.7"
+    }
+  ],
+  "generated": "2022-06-02T08:11:09.874958Z",
+  "generator": "pub",
+  "generatorVersion": "2.8.0-20.11.beta"
+}

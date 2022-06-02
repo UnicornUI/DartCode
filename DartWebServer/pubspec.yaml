@@ -1,0 +1,10 @@
+name: DartWebServer
+version: 0.0.1
+environment:
+  sdk: '>=2.3.0 <3.0.0'
+
+dependencies:
+  # serral 作为 express 或者 koa 的替代品进行服务端的开发
+  # 这个包的源码只有大约 200 行，并且约定了一套非常简单的扩展方式
+  # [Serral文档](https://pub.dev/documentation/serral/latest/serral/serral-library.html)
+  serral: any
