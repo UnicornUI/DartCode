@@ -42,8 +42,8 @@ class Square implements Shape {
 // 实现类时候，不需要覆写对应的方法
 // 但是需要定义相应的实例变量
 class CircleMock implements Circle {
-  num area;
-  num radius;
+  num area = 0;
+  num radius = 0;
 }
 
 void main() {
