@@ -15,6 +15,10 @@ class Rectangle {
    */
   Rectangle({this.origin = const Point(0, 0), this.width = 0, this.height = 0});
 
+  // 命名构造函数 
+  //   - 类名.别名(参数){}
+  Rectangle.createInstance({this.origin = const Point(0, 0), this.width = 0, this.height = 0});
+
   String toString() => 'Origin: (${origin.x}, ${origin.y}), width: $width, height: $height';
 
 }
